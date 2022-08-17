@@ -8,53 +8,56 @@
     <title>Портфоліо</title>
     <!-- Підключаємо стилі -->
     <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+    </style>
 </head>
 
 <body>
 
-<header>
+<header class="headerbar">
     <nav>
         <!-- Верхня лінія -->
         <!-- Лого -->
-        <a href="./">WebStudio</a>
+        <a href="./index.html" class="logo"><span>Web</span>Studio</a>
         <!-- Меню -->
-        <ul>
-            <li><a href="./">Студія</a></li>
-            <li><a href="./portfolio.html">Портфоліо</a></li>
-            <li><a href="">Контакти</a></li>
+        <ul class="nav">
+            <li><a href="./index.html" class="site-nav">Студія</a></li>
+            <li><a href="./portfolio.html" class="site-nav--active">Портфоліо</a></li>
+            <li><a href="" class="site-nav">Контакти</a></li>
         </ul>
     </nav>
     <!-- Контакти -->
     <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
     </ul>
 </header>
 
 <!-- Портфоліо -->
-<main>
+<main class="main">
     <h2>Портфоліо</h2>
     <!-- filters -->
     <ul>
         <!-- filter 1 -->
         <li>
-            <a href="#">Усі</a>
+            <button type="button" class="btn--active">Усі</button>
         </li>
         <!-- filter 2 -->
         <li>
-            <a href="#">Веб-сайти</a>
+            <button type="button">Веб-сайти</button>
         </li>
         <!-- filter 3 -->
         <li>
-            <a href="#">Додатки</a>
+            <button type="button">Додатки</button>
         </li>
         <!-- filter 4 -->
         <li>
-            <a href="#">Дизайн</a>
+            <button type="button">Дизайн</button>
         </li>
         <!-- filter 5 -->
         <li>
-            <a href="#">Маркетинг</a>
+            <button type="button">Маркетинг</button>
         </li>
     </ul>
 
@@ -118,16 +121,16 @@
     </section>  
 </main>
 
-<footer>
-    <!--Підвал-->
+<!--Підвал-->
+<footer class="footer">
     <!-- Лого -->
-    <a href="./">WebStudio</a>
+    <a href="./index.html" class="logo"><span>Web</span>Studio</span></a>
     <!-- Адреса -->
-<address>
+<address class="footer-address">
     <a href="https://www.google.com/maps/d/embed?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=uk_ua&ehbc=2E312F" target="_blank"
-        rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a><br>
-    <a href="mailto:info@devstudio.com">info@devstudio.com</a><br>
-    <a href="tel:+380961111111">+38 096 111 11 11</a>
+        rel="noopener noreferrer" class="footer-map">м. Київ, пр-т Лесі Українки, 26</a><br>
+    <a href="mailto:info@devstudio.com" class="footer-contact">info@devstudio.com</a><br>
+    <a href="tel:+380961111111" class="footer-contact">+38 096 111 11 11</a>
 </address>
 </footer>
 
