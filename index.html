@@ -7,64 +7,67 @@
     <title>Студія</title>
     <!-- Підключаємо стилі -->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
 </head>
 <body>
    
-<header class="headerbar">
+<header class="headernav">
   <nav>
     <!-- Верхня лінія -->
     <!-- Лого -->
     <a href="./index.html" class="logo"><span>Web</span>Studio</a>
     <!-- Меню -->
-    <ul>
+    <ul class="nav">
       <li><a href="./index.html" class="site-nav--active">Студія</a></li>
       <li><a href="./portfolio.html" class="site-nav">Портфоліо</a></li>
       <li><a href="" class="site-nav">Контакти</a></li>
     </ul>
   </nav>
   <!-- Контакти -->
-  <ul>
-    <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-    <li><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
+  <ul class="nav">
+    <li><a href="mailto:info@devstudio.com" class="contact-nav">info@devstudio.com</a></li>
+    <li><a href="tel:+380961111111" class="contact-nav">+38 096 111 11 11</a></li>
   </ul>
 </header>
 
-<main class="main">
-<!-- Шапка -->
-  <section>
-    <h1>Ефективні рішення для вашого бізнесу</h1>
-    <button type="button" class="btn--active">Замовити послугу</button>
-  </section>
-<!--Особливості--> 
+<main>
 
+<!-- Шапка -->
+  <section class="headerbar">
+    <h1 class="headerbar-titlle">Ефективні рішення для вашого бізнесу</h1>
+    <button type="button" class="headerbar-btn">Замовити послугу</button>
+  </section>
+
+<!--Особливості--> 
   <section class="section">
     <h2>Особливості</h2>
     <ul>
     <!--Feature 1-->
       <li>
-        <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-        <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+        <h3 class="feature-titlle">УВАГА ДО ДЕТАЛЕЙ</h3>
+        <p class="feature-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
       </li>
     <!--Feature 2--> 
       <li>
-        <h3>ПУНКТУАЛЬНІСТЬ</h3>
-        <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+        <h3 class="feature-titlle">ПУНКТУАЛЬНІСТЬ</h3>
+        <p class="feature-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
       </li>
     <!--Feature 3--> 
       <li>
-        <h3>ПЛАНУВАННЯ</h3>
-        <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+        <h3 class="feature-titlle">ПЛАНУВАННЯ</h3>
+        <p class="feature-text">Так само консультація з широким активом значною мірою зумовлює.</p>
       </li>
     <!--Feature 4-->
       <li>
-      <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-      <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+      <h3 class="feature-titlle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+      <p class="feature-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
       </li>
     </ul>
-  </section>   
+  </section> 
+
 <!--Чим ми займаємося--> 
   <section class="section">
-    <h2 class="section-title">Чим ми займаємося</h2>
+    <h2>Чим ми займаємося</h2>
     <ul>
       <!--box 1-->
       <li>
@@ -80,15 +83,16 @@
       </li>
     </ul>
    </section>
+
 <!-- Наша команда -->
-<section>
-  <h2 class="section-title">Наша команда</h2>
+<section class="section">
+  <h2>Наша команда</h2>
   <!-- team -->
-  <ul>
+  <ul class="team">
     <!-- team card 1 -->
     <li>
       <img src="./images/img-1.jpg" alt="Ігор Дем'яненко" width="270" />
-      <h3>Ігор Дем'яненко</h3>
+      <h3 class="team-titlle">Ігор Дем'яненко</h3>
       <p>
         Product Designer
       </p>
