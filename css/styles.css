@@ -36,6 +36,7 @@ body {
     cursor: pointer;
 }
 .btn:hover,
+.btn:focus,
 .btn:active {
     color: var(--secondary-white-color);
     background-color: var(--accent-color);
@@ -125,6 +126,7 @@ body {
     cursor: pointer;
 }
 .headerbar-btn:hover,
+.headerbar-btn:focus,
 .headerbar-btn:active {
     background: #188CE8;
 }
@@ -139,6 +141,7 @@ body {
 .feature-text {
     font-size: 14px;
     line-height: 1.71;
+    color: var(--fundamental-text-color);
 }
 /* Team */
 .team {
@@ -150,6 +153,9 @@ body {
 .team-titlle {
     font-size: 16px;
     font-weight: 500;
+}
+.team-text {
+    color: var(--fundamental-text-color);
 }
 
 /* Project */
